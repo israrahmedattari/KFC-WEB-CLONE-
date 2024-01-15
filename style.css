@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.header{
+    margin-left: 100px;
+    width: 990px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.header button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.header button:active{
+    background-color: brown;
+}
+h1{
+    margin-left: 100px;
+    font-family: impact;
+    text-transform: uppercase;
+}
+.main{
+    margin-left: 100px;
+    height: 390px;
+    width: 990px;
+}
+.img2{
+    height: 200px;
+    width: 990px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 1px solid black;
+    background-image: url("kfc2.png");
+    background-size: cover;
+}
+.container{
+    height: 510px;
+    width: 990px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.container1{
+    height: 240px;
+    width: 985px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1{
+    height: 240px;
+    width: 200px;
+    margin-left: 5px;
+    border: 1px solid rgb(145, 144, 144);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.itemimg1{
+    height: 130px;
+    width: 200px;
+    background-image: url("item1.jpg");
+    background-size: cover;
+}
+.item1 
+    ul{
+        color: red;
+        list-style-type: square;
+        -webkit-text-fill-color: black;
+        font-size: 1.2em;
+        margin-left: 15px;
+}
+.buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buy button{
+    border-color:red;
+    background-color: burlywood;
+    color: brown;
+}
+.buy span{
+    margin-top: 10px;
+    color: brown;
+    font-size: 1em;
+}
+.itemimg2{
+    height: 130px;
+    width: 200px;
+    background-image: url("item2.jpg");
+    background-size: cover;
+}
+.itemimg3{
+    height: 130px;
+    width: 200px;
+    background-image: url("item3.jpg");
+    background-size: cover;
+}
+.itemimg4{
+    height: 130px;
+    width: 200px;
+    background-image: url("item4.jpg");
+    background-size: cover;
+}
+.itemimg5{
+    height: 130px;
+    width: 200px;
+    background-image: url("item5.jpg");
+    background-size: cover;
+}
+.itemimg6{
+    height: 130px;
+    width: 200px;
+    background-image: url("item6.jpg");
+    background-size: cover;
+}
+.itemimg5{
+    height: 130px;
+    width: 200px;
+    background-image: url("item5.jpg");
+    background-size: cover;
+}
+.itemimg6{
+    height: 130px;
+    width: 200px;
+    background-image: url("item6.jpg");
+    background-size: cover;
+}
+.offers{
+    height: 275px;
+    width: 990px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.offer1{
+    height: 250px;
+    width: 270px;
+    border: 1px solid rgb(117, 114, 114);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.offer1 button{
+    height: 40px;
+    width: 100px;
+    background-color: brown;
+    color: white;
+}
+#Add{
+    margin-left: 100px;
+}
+footer{
+    height: 200px;
+    width: 990px;
+    margin-top: 20px;
+    border-right:3px solid grey ;
+    border-bottom:3px solid grey ;
+    border-left:1px solid rgb(167, 162, 162) ;
+    border-top:1px solid rgb(167, 162, 162) ;
+    margin-left: 100px;
+}
+footer .link{
+    height: 70px;
+    width: 970px;
+    border-bottom:1px solid black;
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.link a{
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+.link #play{
+    margin-left: 150px;
+}
+.link #appstore{
+    margin-left: 20px;
+}
+.copyright img{
+    margin-left: 10px;
+}
+.copyright span{
+    margin-left: 400px;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 1em;
+    color: rgb(67, 58, 58);
+}
+blockquote{
+    margin: 0px;
+    padding: 10px;
+    color: rgb(33, 24, 24);
+}
+@media (min-width:200px) and (max-width:400px){
+    div{
+      min-width: 200px; 
+    }
+}
